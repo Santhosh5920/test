@@ -5,4 +5,3 @@ function info(){
     let result = document.getElementById("result")
     result.innerHTML = "hi "+ name +" and your age is"+ age +"and the address is  "+address
 }
-console.log(naem)

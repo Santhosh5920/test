@@ -1,7 +1,14 @@
-function info(){
-    let name = document.getElementById("name").value
-    let age = Number(document.getElementById("age").value)
-    let address = document.getElementById("add").value
-    let result = document.getElementById("result")
-    result.innerHTML = "hi "+ name +" and your age is"+ age +"and the address is  "+address
+
+function log(){
+    let uname = document.getElementById("name").value
+    let pass = document.getElementById("pass").value
+    if(uname=="" && pass ==""){
+        alert("please fill username and password")
+    }
+    else if(uname==""){
+        alert("username must be filled")
+    }
+    else if(pass==""){
+        alert("password must be filled")
+    }
 }

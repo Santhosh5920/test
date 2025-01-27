@@ -1,9 +1,47 @@
-table{
+div{
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
     color: white;
-    background-color: rgb(22, 18, 32);
+    backdrop-filter: blur(10px);
+    border-radius:10px;
+    border: 2px solid gray;
+    padding: 30px 30px;
+    box-shadow: 0 0 10px black;
+
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+h1{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    height:30px;
+    width: 90%;
+    background-color: transparent;
+    padding: 3px 10px 3px 10px;
+    box-shadow: 0 0 10px gray;
+    outline: none;
+    border: 2px solid gray;
+}
+input::placeholder{
+    color: white;
+    padding-left: 100px;
+}
+button{
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    font-weight: 600;
+    color: #333;
 }

@@ -1,0 +1,9 @@
+table{
+    color: white;
+    background-color: rgb(22, 18, 32);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

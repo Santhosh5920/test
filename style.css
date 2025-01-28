@@ -42,7 +42,7 @@ input::placeholder{
     justify-content: space-between;
     margin-top: 15px;
 }
-button{
+.login{
     margin-top: 10px;
     border-radius: 7px;
     height: 40px;

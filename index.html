@@ -26,12 +26,15 @@
 <center>
 <div>
     <h1>Login</h1>
-    <input type="text" class="input-box"  id="name" placeholder="UserName" style="margin-bottom: 20px;"><br>
-    <input type="password" class="input-box" id="pass" placeholder="Password"><br>
+    <form action="" method="post">
+    <input type="text" class="input-box"  id="name" placeholder="UserName" style="margin-bottom: 20px;" required><br>
+    <input type="password" class="input-box" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}" title="The password must contain a number, a lowercase, a uppercase with minimum of 6 characters" placeholder="Password" required><br>
+    <span class="passwords"></span>
     <span class="one"><nm><input type="checkbox" name="checkbox" id="checkbox"><span style="position: absolute;padding-top: 4px;">remember me</span></nm><a href="" style="padding-top: 5px;text-decoration: none;color: #fff;">Forget Password</a></span>
-    <button onclick="log()" >Log in</button>
+    <input type="submit" value="Login" class="login">
     <a href="" class="sign" style="color: #fff;">Don't have a account ?</a>
 </div></center></div>
+</form>
 <script src="script.js"></script>
 </span>
 </body>

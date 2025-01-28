@@ -43,7 +43,7 @@ input::placeholder{
     margin-top: 15px;
 }
 button{
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 7px;
     height: 40px;
     width: 100%;
@@ -53,4 +53,7 @@ button{
     box-shadow: 0 0 10px black;
     font-weight: 600;
     color: #333;
+}
+.sign{
+    margin-top: 10px;
 }

@@ -1,6 +1,6 @@
-div{
-    margin-top: 150px;
-    height: 300px;
+.login{
+    margin-top: 120px;
+    height: 350px;
     width: 300px;
     color: white;
     backdrop-filter: blur(10px);
@@ -41,7 +41,7 @@ input::placeholder{
     justify-content: space-between;
     margin-top: 15px;
 }
-.login{
+.log{
     margin-top: 10px;
     border-radius: 7px;
     height: 40px;
